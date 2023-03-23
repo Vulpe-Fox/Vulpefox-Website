@@ -2,9 +2,9 @@
 uhhhh memes owo uwu yip
 
 React?
-Go?
+Go
 Bootstrap?
 PostGres?
-GraphQL?
+GraphQL
 docker docker docker docker@
 RGBPGDDDD
