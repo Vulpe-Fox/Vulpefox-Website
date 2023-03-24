@@ -3,8 +3,6 @@ package resolvers
 import (
 	"context"
 	"fmt"
-
-	"github.com/Vulpe-Fox/Vulpefox-Website/graph/model"
 )
 
 func CreateTextPostResolver(ctx context.Context, input *model.TextPostInput) (*model.Post, error) {

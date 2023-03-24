@@ -1,4 +1,4 @@
-module github.com/Vulpe-Fox/Vulpefox-Website
+module github.com/Vulpe-Fox/Vulpefox-Website/server
 
 go 1.19
 
