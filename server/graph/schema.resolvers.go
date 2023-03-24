@@ -8,7 +8,7 @@ import (
 	"context"
 
 	"github.com/Vulpe-Fox/Vulpefox-Website/graph/model"
-	"github.com/Vulpe-Fox/Vulpefox-Website/resolvers"
+	"github.com/Vulpe-Fox/Vulpefox-Website/server/resolvers"
 )
 
 // CreateTextPost is the resolver for the createTextPost field.
