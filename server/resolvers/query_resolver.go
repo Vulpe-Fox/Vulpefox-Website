@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/Vulpe-Fox/Vulpefox-Website/server/graph/model"
+	"github.com/Vulpe-Fox/Vulpefox-Website/graph/model"
 )
 
 func QueryPostsResolver(ctx context.Context, input *model.QueryInput) (*model.PostQuery, error) {
