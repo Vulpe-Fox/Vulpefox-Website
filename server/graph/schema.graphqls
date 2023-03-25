@@ -1,6 +1,7 @@
 enum MediaType {
   IMAGE
-  Survey
+  SURVEY
+  THREE_D
 }
 
 type User {
@@ -66,7 +67,6 @@ type Survey {
 }
 
 input CommentInput {
-  title: String!
   description: String!
   hidden: Boolean
 }

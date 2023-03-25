@@ -26,7 +26,6 @@ type Comment struct {
 }
 
 type CommentInput struct {
-	Title       string `json:"title"`
 	Description string `json:"description"`
 	Hidden      *bool  `json:"hidden,omitempty"`
 }
@@ -118,17 +117,19 @@ type MediaType string
 
 const (
 	MediaTypeImage  MediaType = "IMAGE"
-	MediaTypeSurvey MediaType = "Survey"
+	MediaTypeSurvey MediaType = "SURVEY"
+	MediaTypeThreeD MediaType = "THREE_D"
 )
 
 var AllMediaType = []MediaType{
 	MediaTypeImage,
 	MediaTypeSurvey,
+	MediaTypeThreeD,
 }
 
 func (e MediaType) IsValid() bool {
 	switch e {
-	case MediaTypeImage, MediaTypeSurvey:
+	case MediaTypeImage, MediaTypeSurvey, MediaTypeThreeD:
 		return true
 	}
 	return false
